@@ -231,7 +231,7 @@ figure {
       padding: 0 1em; } }
 
 #colorlib-hero {
-  min-height: 500px;
+  min-height: 50px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
@@ -247,7 +247,7 @@ figure {
       #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom center;
+        background-position:inherit
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
@@ -283,7 +283,7 @@ figure {
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
-        vertical-align: middle;
+        vertical-align:bottom;
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
@@ -293,7 +293,7 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
+          color: red; 
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -332,8 +332,9 @@ figure {
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
-            border: 1px solid #000;
+            
+            color: #98f109;
+            border: 1px solid #f46607;
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
